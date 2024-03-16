@@ -34,15 +34,15 @@
 
 #define TM1638_ENABLEDMODULES 0
 #define TM1638_SWAPLEDCOLORS 0
-#define TM1638_DIO 8
-#define TM1638_CLK 7
-#define TM1638_STB1 9
+#define TM1638_DIO 0
+#define TM1638_CLK 0
+#define TM1638_STB1 0
 #define TM1638_SINGLECOLOR1 0
-#define TM1638_STB2 10
+#define TM1638_STB2 0
 #define TM1638_SINGLECOLOR2 0
-#define TM1638_STB3 11
+#define TM1638_STB3 0
 #define TM1638_SINGLECOLOR3 0
-#define TM1638_STB4 12
+#define TM1638_STB4 0
 #define TM1638_SINGLECOLOR4 0
 #define TM1638_STB5 0
 #define TM1638_SINGLECOLOR5 0
@@ -53,33 +53,33 @@
 
 #define TM1637_DIO1 23
 #define TM1637_CLK1 1
-#define TM1637_DIO2 4
-#define TM1637_CLK2 3
-#define TM1637_DIO3 4
-#define TM1637_CLK3 3
-#define TM1637_DIO4 4
-#define TM1637_CLK4 3
-#define TM1637_DIO5 4
-#define TM1637_CLK5 3
-#define TM1637_DIO6 4
-#define TM1637_CLK6 3
-#define TM1637_DIO7 4
-#define TM1637_CLK7 3
-#define TM1637_DIO8 4
-#define TM1637_CLK8 3
+#define TM1637_DIO2 0
+#define TM1637_CLK2 0
+#define TM1637_DIO3 0
+#define TM1637_CLK3 0
+#define TM1637_DIO4 0
+#define TM1637_CLK4 0
+#define TM1637_DIO5 0
+#define TM1637_CLK5 0
+#define TM1637_DIO6 0
+#define TM1637_CLK6 0
+#define TM1637_DIO7 0
+#define TM1637_CLK7 0
+#define TM1637_DIO8 0
+#define TM1637_CLK8 0
 
 #include "SHTM1637.h"
 
 
 #define MAX7221_ENABLEDMODULES 0
-#define MAX7221_DATA 3
-#define MAX7221_CLK 5
-#define MAX7221_LOAD 4
+#define MAX7221_DATA 0
+#define MAX7221_CLK 0
+#define MAX7221_LOAD 0
 
 #define MAX7221_MATRIX_ENABLED 0
-#define MAX7221_MATRIX_DATA 3
-#define MAX7221_MATRIX_CLK 5
-#define MAX7221_MATRIX_LOAD 4
+#define MAX7221_MATRIX_DATA 0
+#define MAX7221_MATRIX_CLK 0
+#define MAX7221_MATRIX_LOAD 0
 
 
 #define ENABLE_ADA_HT16K33_SingleColorMatrix 0
@@ -95,19 +95,19 @@ SHRGBLedsNeoPixelFastLeds shRGBLedsWS2812B;
 #define WS2812B_TESTMODE 0
 
 #define PL9823_RGBLEDCOUNT 0
-#define PL9823_DATAPIN 6
+#define PL9823_DATAPIN 0
 #define PL9823_RIGHTTOLEFT 0
 #define PL9823_TESTMODE 0
 
 #define WS2801_RGBLEDCOUNT 0
 #define WS2801_RIGHTTOLEFT 0
-#define WS2801_DATAPIN 5
-#define WS2801_CLOCKPIN 6
+#define WS2801_DATAPIN 0
+#define WS2801_CLOCKPIN 0
 #define WS2801_TESTMODE 0
 
 #define WS2812B_MATRIX_ENABLED 0
 
-#define WS2812B_MATRIX_DATAPIN 6
+#define WS2812B_MATRIX_DATAPIN 0
 
 #define I2CLCD_enabled 0
 #define I2CLCD_size 0
@@ -128,85 +128,85 @@ SHRGBLedsNeoPixelFastLeds shRGBLedsWS2812B;
 
 
 #define ENABLE_TACHOMETER 0
-#define TACHOMETER_PIN 9
+#define TACHOMETER_PIN 0
 
 #define ENABLE_SPEEDOGAUGE 0
-#define SPEEDO_PIN 4
+#define SPEEDO_PIN 0
 
 #define ENABLE_BOOSTGAUGE 0
-#define BOOST_PIN 5
+#define BOOST_PIN 0
 
 #define ENABLE_TEMPGAUGE 0
-#define TEMP_PIN 5
+#define TEMP_PIN 0
 
 #define ENABLE_FUELGAUGE 0
-#define FUEL_PIN 5
+#define FUEL_PIN 0
 
 #define ENABLE_CONSGAUGE 0
-#define CONS_PIN 5
+#define CONS_PIN 0
 
 #define ENABLED_BUTTONS_COUNT 0
-#define BUTTON_PIN_1 3
-#define BUTTON_PIN_2 3
-#define BUTTON_PIN_3 3
-#define BUTTON_PIN_4 3
-#define BUTTON_PIN_5 3
-#define BUTTON_PIN_6 3
-#define BUTTON_PIN_7 3
-#define BUTTON_PIN_8 3
-#define BUTTON_PIN_9 3
-#define BUTTON_PIN_10 3
-#define BUTTON_PIN_11 3
-#define BUTTON_PIN_12 3
+#define BUTTON_PIN_1 0
+#define BUTTON_PIN_2 0
+#define BUTTON_PIN_3 0
+#define BUTTON_PIN_4 0
+#define BUTTON_PIN_5 0
+#define BUTTON_PIN_6 0
+#define BUTTON_PIN_7 0
+#define BUTTON_PIN_8 0
+#define BUTTON_PIN_9 0
+#define BUTTON_PIN_10 0
+#define BUTTON_PIN_11 0
+#define BUTTON_PIN_12 0
 
 SHDebouncer ButtonsDebouncer(10);
 
 #define ENABLED_ENCODERS_COUNT 0
-#define ENCODER1_CLK_PIN 7
-#define ENCODER1_DT_PIN 8
-#define ENCODER1_BUTTON_PIN 9
+#define ENCODER1_CLK_PIN 0
+#define ENCODER1_DT_PIN 0
+#define ENCODER1_BUTTON_PIN 0
 #define ENCODER1_REVERSE_DIRECTION 0
 #define ENCODER1_ENABLE_PULLUP 0
 #define ENCODER1_ENABLE_HALFSTEPS 0
-#define ENCODER2_CLK_PIN 11
-#define ENCODER2_DT_PIN 12
-#define ENCODER2_BUTTON_PIN 13
+#define ENCODER2_CLK_PIN 0
+#define ENCODER2_DT_PIN 0
+#define ENCODER2_BUTTON_PIN 0
 #define ENCODER2_ENABLE_PULLUP 0
 #define ENCODER2_REVERSE_DIRECTION 0
 #define ENCODER2_ENABLE_HALFSTEPS 0
-#define ENCODER3_CLK_PIN 7
-#define ENCODER3_DT_PIN 8
-#define ENCODER3_BUTTON_PIN 9
+#define ENCODER3_CLK_PIN 0
+#define ENCODER3_DT_PIN 0
+#define ENCODER3_BUTTON_PIN 0
 #define ENCODER3_ENABLE_PULLUP 0
 #define ENCODER3_REVERSE_DIRECTION 0
 #define ENCODER3_ENABLE_HALFSTEPS 0
-#define ENCODER4_CLK_PIN 7
-#define ENCODER4_DT_PIN 8
-#define ENCODER4_BUTTON_PIN 9
+#define ENCODER4_CLK_PIN 0
+#define ENCODER4_DT_PIN 0
+#define ENCODER4_BUTTON_PIN 0
 #define ENCODER4_ENABLE_PULLUP 0
 #define ENCODER4_REVERSE_DIRECTION 0
 #define ENCODER4_ENABLE_HALFSTEPS 0
-#define ENCODER5_CLK_PIN 7
-#define ENCODER5_DT_PIN 8
-#define ENCODER5_BUTTON_PIN 9
+#define ENCODER5_CLK_PIN 0
+#define ENCODER5_DT_PIN 0
+#define ENCODER5_BUTTON_PIN 0
 #define ENCODER5_ENABLE_PULLUP 0
 #define ENCODER5_REVERSE_DIRECTION 0
 #define ENCODER5_ENABLE_HALFSTEPS 0
-#define ENCODER6_CLK_PIN 7
-#define ENCODER6_DT_PIN 8
-#define ENCODER6_BUTTON_PIN 9
+#define ENCODER6_CLK_PIN 0
+#define ENCODER6_DT_PIN 0
+#define ENCODER6_BUTTON_PIN 0
 #define ENCODER6_ENABLE_PULLUP 0
 #define ENCODER6_REVERSE_DIRECTION 0
 #define ENCODER6_ENABLE_HALFSTEPS 0
-#define ENCODER7_CLK_PIN 7
-#define ENCODER7_DT_PIN 8
-#define ENCODER7_BUTTON_PIN 9
+#define ENCODER7_CLK_PIN 0
+#define ENCODER7_DT_PIN 0
+#define ENCODER7_BUTTON_PIN 0
 #define ENCODER7_ENABLE_PULLUP 0
 #define ENCODER7_REVERSE_DIRECTION 0
 #define ENCODER7_ENABLE_HALFSTEPS 0
-#define ENCODER8_CLK_PIN 7
-#define ENCODER8_DT_PIN 8
-#define ENCODER8_BUTTON_PIN 9
+#define ENCODER8_CLK_PIN 0
+#define ENCODER8_DT_PIN 0
+#define ENCODER8_BUTTON_PIN 0
 #define ENCODER8_ENABLE_PULLUP 0
 #define ENCODER8_REVERSE_DIRECTION 0
 #define ENCODER8_ENABLE_HALFSTEPS 0
@@ -214,25 +214,25 @@ SHDebouncer ButtonsDebouncer(10);
 
 #define ENABLED_BUTTONMATRIX 0
 
-#define BMATRIX_COLS 3
-#define BMATRIX_ROWS 3
+#define BMATRIX_COLS 0
+#define BMATRIX_ROWS 0
 
-#define BMATRIX_COL1 2
-#define BMATRIX_COL2 3
-#define BMATRIX_COL3 4
-#define BMATRIX_COL4 5
-#define BMATRIX_COL5 2
-#define BMATRIX_COL6 2
-#define BMATRIX_COL7 2
-#define BMATRIX_COL8 2
-#define BMATRIX_ROW1 6
-#define BMATRIX_ROW2 7
-#define BMATRIX_ROW3 8
-#define BMATRIX_ROW4 9
-#define BMATRIX_ROW5 2
-#define BMATRIX_ROW6 2
-#define BMATRIX_ROW7 2
-#define BMATRIX_ROW8 2
+#define BMATRIX_COL1 0
+#define BMATRIX_COL2 0
+#define BMATRIX_COL3 0
+#define BMATRIX_COL4 0
+#define BMATRIX_COL5 0
+#define BMATRIX_COL6 0
+#define BMATRIX_COL7 0
+#define BMATRIX_COL8 0
+#define BMATRIX_ROW1 0
+#define BMATRIX_ROW2 0
+#define BMATRIX_ROW3 0
+#define BMATRIX_ROW4 0
+#define BMATRIX_ROW5 0
+#define BMATRIX_ROW6 0
+#define BMATRIX_ROW7 0
+#define BMATRIX_ROW8 0
 
 
 #define ADAMOTORS_SHIELDSCOUNT 0
@@ -245,24 +245,24 @@ SHDebouncer ButtonsDebouncer(10);
 #define DKMOTOR_USEHUMMINGREDUCING 0
 
 #define L98NMOTORS_ENABLED 0
-#define L98N_enA 10
-#define L98N_in1 9
-#define L98N_in2 8
-#define L98N_enB 5
-#define L98N_in3 7
-#define L98N_in4 6
+#define L98N_enA 0
+#define L98N_in1 0
+#define L98N_in2 0
+#define L98N_enB 0
+#define L98N_in3 0
+#define L98N_in4 0
 
 #define SHAKEITPWM_ENABLED_MOTORS 0
-#define SHAKEITPWM_O1 5
+#define SHAKEITPWM_O1 0
 #define SHAKEITPWM_MIN_OUTPUT_O1 0
 #define SHAKEITPWM_MAX_OUTPUT_O1 255
-#define SHAKEITPWM_O2 6
+#define SHAKEITPWM_O2 0
 #define SHAKEITPWM_MIN_OUTPUT_O2 0
 #define SHAKEITPWM_MAX_OUTPUT_O2 255
-#define SHAKEITPWM_O3 9
+#define SHAKEITPWM_O3 0
 #define SHAKEITPWM_MIN_OUTPUT_O3 0
 #define SHAKEITPWM_MAX_OUTPUT_O3 255
-#define SHAKEITPWM_O4 10
+#define SHAKEITPWM_O4 0
 #define SHAKEITPWM_MIN_OUTPUT_O4 0
 #define SHAKEITPWM_MAX_OUTPUT_O4 255
 
@@ -271,16 +271,16 @@ SHDebouncer ButtonsDebouncer(10);
 #define SHAKEITPWMFANS_ENABLED_MOTORS 0
 
 
-#define SHAKEITPWMFANS_O1 9
+#define SHAKEITPWMFANS_O1 0
 #define SHAKEITPWMFANS_MIN_OUTPUT_O1 0
 #define SHAKEITPWMFANS_MAX_OUTPUT_O1 255
-#define SHAKEITPWMFANS_O2 10
+#define SHAKEITPWMFANS_O2 0
 #define SHAKEITPWMFANS_MIN_OUTPUT_O2 0
 #define SHAKEITPWMFANS_MAX_OUTPUT_O2 255
-#define SHAKEITPWMFANS_O3 11
+#define SHAKEITPWMFANS_O3 0
 #define SHAKEITPWMFANS_MIN_OUTPUT_O3 0
 #define SHAKEITPWMFANS_MAX_OUTPUT_O3 255
-#define SHAKEITPWMFANS_O4 10
+#define SHAKEITPWMFANS_O4 0
 #define SHAKEITPWMFANS_MIN_OUTPUT_O4 0
 #define SHAKEITPWMFANS_MAX_OUTPUT_O4 255
 
@@ -294,14 +294,14 @@ SHDebouncer ButtonsDebouncer(10);
 #define ENABLED_OLEDLCD 0
 
 #define ENABLE_74HC595_GEAR_DISPLAY 0
-#define RS_74HC595_DATAPIN 2
-#define RS_74HC595_LATCHPIN 3
-#define RS_74HC595_CLOCKPIN 4
+#define RS_74HC595_DATAPIN 0
+#define RS_74HC595_LATCHPIN 0
+#define RS_74HC595_CLOCKPIN 0
 
 #define ENABLE_6C595_GEAR_DISPLAY 0
-#define RS_6c595_DATAPIN 11
-#define RS_6c595_LATCHPIN 13
-#define RS_6c595_SLAVEPIN 10
+#define RS_6c595_DATAPIN 0
+#define RS_6c595_LATCHPIN 0
+#define RS_6c595_SLAVEPIN 0
 
 #include "SHLedsBackpack.h"
 
@@ -322,8 +322,7 @@ long lastKnobPosition[] = { -999, -999, -999, -999};
 byte buttonNumber = 1;
 long lastKnobStateChange = 0;
 
-byte thumbstick1[] = {9, 10};
-byte thumbstick2[] = {14, 15};
+bool toBeReset = false;
 
 TM1637 tm1637(TM1637_CLK1, TM1637_DIO1);
 //SevenSegmentTM1637 tm1637(TM1637_CLK1, TM1637_DIO1);
@@ -336,10 +335,8 @@ Encoder knob4(8, 16);
 #define ANALOG_CENTER 512
 int Xstick;
 int Ystick;
-int Zstick;
-int Zstickrotate;
-int upperBound=550;
-int lowerBound=400;
+double Zstick;
+double Zstickrotate;
 
 void(* resetFunc) (void) = 0;
 
@@ -354,13 +351,20 @@ void initMatrixPins() {
 }
 
 void resetArduino() {
-	pinMode(rowPins[0], OUTPUT);
+    
 	pinMode(rowPins[2], OUTPUT);
-	digitalWrite(rowPins[0], LOW);
+	pinMode(rowPins[3], OUTPUT);
 	digitalWrite(rowPins[2], LOW);
+	digitalWrite(rowPins[3], LOW);
 	
-	if (digitalRead(columnPins[1]) == LOW && digitalRead(columnPins[0]) == LOW) {
-		//Serial.println("=================RESET");
+	if (digitalRead(columnPins[0]) == LOW && digitalRead(columnPins[2]) == LOW) {
+		//Serial.println("=================Resetting arduino");
+		toBeReset = true;
+	}
+	
+	if (toBeReset && digitalRead(columnPins[0]) == HIGH && digitalRead(columnPins[2]) == HIGH) {
+		//Serial.println("=================Reset!!!");
+		toBeReset = false;
 		resetFunc();
 	}
 }
@@ -380,14 +384,18 @@ void sendMatrixState() {
 	/*
 	for(byte x=0; x<ENABLED_MATRIX_COLUMNS_; x++) {
 		byte pinState = (digitalRead(columnPins[x]) == LOW) ? 1 : 0;
-		Serial.print(i);
-		Serial.print(x);
-		Serial.print(" = ");
-		Serial.print(pinState);
-		Serial.println();
+		if (pinState == 1) {
+			Serial.print("row = ");
+			Serial.print(i);
+			Serial.print(", col = ");
+			Serial.print(x);
+			Serial.print(" == ");
+			Serial.print(pinState);
+			Serial.println();
+		}
 	}
 	
-	delay(10);
+	delay(1000);
 	*/
 	digitalWrite(rowPins[i], HIGH);
   }
@@ -478,45 +486,77 @@ void setup()
   TM1637_screens[0]->rawDisplay(1, 32 | 16 | 64 | 4);
   TM1637_screens[0]->rawDisplay(2, 4);
   TM1637_screens[0]->rawDisplay(3, 32 | 64 | 8 | 16);
+  
+  pinMode(A6, INPUT);
+  pinMode(A7, INPUT);
+  pinMode(A10, INPUT);
+  pinMode(A11, INPUT);
 }
 
 
 void sendAnalogicState() {
-  Xstick = analogRead(9);
-  Ystick = analogRead(10);
+  Xstick = analogRead(A7);
+  Ystick = analogRead(A6);
 
-  if ((Xstick > 512 && Xstick <= upperBound) || (Xstick < 512 && Xstick >= lowerBound)) {
+  if ((Xstick > 512 && Xstick <= 550) || (Xstick < 512 && Xstick >= 440)) {
     Xstick = 512;
   }
 
-  if ((Ystick > 512 && Ystick <= upperBound) || (Ystick < 512 && Ystick >= lowerBound)) {
+  if ((Ystick > 512 && Ystick <= 550) || (Ystick < 512 && Ystick >= 440)) {
     Ystick = 512;
   }
 
-  //Xstick = (Xstick - 511) * 2 + 511;
-  // cap result
-  //if (Xstick > 1023)
-  //  Xstick = 1023;
-  //if (Xstick < 0)
-  //  Xstick = 0;
+
+  //Serial.print(Xstick);
+  //Serial.print(" - ");
+  //Serial.print(Ystick);
+  //Serial.println();	
 
   Joystick.X(Xstick);
   Joystick.Y(Ystick);
 
   // Left Analogue Stick
-  Zstick = analogRead(14);
-  Zstickrotate = analogRead(15);
+  Zstick = analogRead(A11);
+  Zstickrotate = analogRead(A10);   
+    
+  int aux = Zstickrotate - 180;
 
-  if ((Zstick > 512 && Zstick <= upperBound) || (Zstick < 512 && Zstick >= lowerBound)) {
+  if (aux < 0) {
+	Zstickrotate = abs(aux);
+  } else {
+	Zstickrotate = aux;
+  }
+  
+  aux = Zstick - 300;
+
+  if (aux < 0) {
+	Zstick = abs(aux);
+  } else {
+	Zstick = aux;
+  }
+  
+  //NewRange = (NewMax - NewMin)  
+  //NewValue = (((OldValue - OldMin) * NewRange) / OldRange) + NewMin
+  Zstick = ((Zstick * 1023) / 500) + 1;
+  Zstickrotate = ((Zstickrotate * 1023) / 350) + 1;
+  //300 / 820
+  if (Zstick <= 600 && Zstick >= 500) {
     Zstick = 512;
   }
 
-  if ((Zstickrotate > 512 && Zstickrotate <= upperBound) || (Zstickrotate < 512 && Zstickrotate >= lowerBound)) {
+  if (Zstickrotate <= 610 && Zstickrotate >= 510) {
     Zstickrotate = 512;
-  }
+  } 
+  
+  //Serial.print(Zstick);
+  //Serial.print(" - ");
+  //Serial.print(Zstickrotate);
+  //Serial.println();
   
   Joystick.Z(Zstick);
   Joystick.Zrotate(Zstickrotate);
+  
+  Joystick.send_now();
 }
 
 char loop_opt;
@@ -569,5 +609,5 @@ void loop() {
   sendMatrixState();
   sendKnobState();
   sendAnalogicState();
-  // resetArduino();
+  resetArduino();
 }
